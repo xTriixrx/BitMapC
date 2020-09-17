@@ -93,7 +93,7 @@ int main(int argc, char **argv)
           invertBitMapRow(bm->map, bm->bit_size, columns, pos);
           break;
         default:
-          printf("Invalid option passed, please input an option between 1-3 or -1 to quit.\n");
+          printf("Invalid option passed, please input an option between 1-6 or -1 to quit.\n");
           break;
     }
     printf("\n");
